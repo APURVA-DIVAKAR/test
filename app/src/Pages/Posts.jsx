@@ -25,13 +25,13 @@ const Posts = () => {
     if(post.length===0 ){
         return <div>...Loading</div>
      }
-  if(token){
+ 
       return (
     <div>
         <PostItem/>
     </div>
   )
-      }
+      
 }
 
 export default Posts
